@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className={styles.container}>
             <hr />
             <p className={styles.footer}>
-                Made with React + TS by <a className={styles.name} href='https://github.com/JoaquinCortezHub' target='blank'>Joaquín Cortez</a>.
+                Made with React + TypeScript by <a className={styles.name} href='https://github.com/JoaquinCortezHub' target='blank'>Joaquín Cortez</a>🧑‍💻.
             </p>
         </footer>
     )

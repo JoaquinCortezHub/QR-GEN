@@ -28,4 +28,4 @@ With this project, I could get used to working with state in React, managing the
 TypeScript functionalities. I also learned how to work with the 'qrcode' library and with the 'Toastify' library.
 
 Now I'm more concious of how to start building features that are solid in a way that they can be coded quickly, they are easy to read,
-and they acn later be reused in bigger projects.
+and they can later be reused in bigger projects.
