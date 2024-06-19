@@ -1,0 +1,14 @@
+.container {
+    margin-top: auto;
+}
+
+
+.footer {
+    margin-top: 1rem;
+    color: hsl(0, 0%, 47%);
+}
+
+.name {
+    text-decoration: underline;
+    color: hsl(0, 0%, 47%);
+}

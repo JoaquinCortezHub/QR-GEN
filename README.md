@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# QR GENERATION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website was made using React, TypeScript and Toastify for the push notifications.
 
-Currently, two official plugins are available:
+To run this repo locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- npm install
+- npm run dev
 
-## Expanding the ESLint configuration
+## Why This Project??
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I built this project as a way to practice React and Typescript, but mostly because I want to later work on a bigger project
+where a QR-Code generation feature is needed, so I decided to break down the problem into tiny projects to familiarize myself
+with the technologies I want to use in this bigger project.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The main features of this project are:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Generate a QR-Code based on the input provided by the user.
+- The QR-Code can be downloaded as an image.
+- The user gets feedback in the form of push notifications.
+- The input is validated to prevent useless codes.
+
+## What I learned
+
+With this project, I could get used to working with state in React, managing the validation and storage of the input and using basic
+TypeScript functionalities. I also learned how to work with the 'qrcode' library and with the 'Toastify' library.
+
+Now I'm more concious of how to start building features that are solid in a way that they can be coded quickly, they are easy to read,
+and they acn later be reused in bigger projects.
